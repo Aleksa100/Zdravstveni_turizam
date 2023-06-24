@@ -11,10 +11,13 @@ html {
 
 nav {
   position: sticky;
-  background-image: url(/images/Pozadina.jpg);
+  background-image: url(/images/Pocetna1.png);
   font-size: 1.5rem;
   font-weight: 400;
   font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul {
@@ -27,11 +30,12 @@ nav ul li a {
 }
 
 main {
-  padding: 24rem 0 20em 0;
+  padding: 20rem 0 20em 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transform: translateY(-12.5rem);
 }
 
 main h1 {
@@ -56,7 +60,7 @@ main button {
 }
 
 #all {
-  background-image: url(/images/Pozadina.jpg);
+  background-image: url(/images/Pocetna1.png);
   width: 100%;
   height: 100%;
   background-size: cover;
