@@ -1,0 +1,73 @@
+html {
+  --bijela: #ffffff;
+  --svsiva: #aaaaaa;
+  --siva: #969696;
+  --tmsiva: #252525;
+  --crna: #121212;
+  --zelena: #7dce94;
+  --svplava: #0e91a1;
+  --plava: #146c78;
+}
+
+nav {
+  position: sticky;
+  background-image: url(/images/Pozadina.jpg);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: var(--bijela);
+}
+
+main {
+  padding: 24rem 0 20em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main h1 {
+  color: var(--bijela);
+  text-align: center;
+  width: 600px;
+  height: 158px;
+  font-family: Road Rage;
+  left: 50%;
+  font-size: 4rem;
+}
+
+main button {
+  color: var(--svplava);
+  font-family: Roboto;
+  font-size: 1.5rem;
+  width: 16rem;
+  height: 4rem;
+  box-shadow: 1px 2px 2px;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+#all {
+  background-image: url(/images/Pozadina.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#logo {
+  padding: 0.5rem 0 0 3rem;
+}
+
+#navbarCenteredExample {
+  display: flex;
+  justify-content: space-around;
+}
