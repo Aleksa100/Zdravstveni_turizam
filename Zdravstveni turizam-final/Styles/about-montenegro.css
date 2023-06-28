@@ -1,0 +1,106 @@
+html {
+  --bijela: #ffffff;
+  --svsiva: #aaaaaa;
+  --siva: #969696;
+  --tmsiva: #252525;
+  --crna: #121212;
+  --zelena: #7dce94;
+  --svplava: #0e91a1;
+  --plava: #146c78;
+  background-image: url(/images/site\ treci\ dio.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  padding: none;
+}
+
+#header-3 {
+  position: relative;
+  display: flex;
+  margin-left: 6rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#header-3 h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  color: var(--plava);
+}
+
+#main-3 {
+  display: flex;
+}
+
+#main-3 img {
+  transform: translateX(60px);
+}
+
+#text {
+  font-family: Roboto;
+  font-size: 1.5rem;
+  color: var(--svplava);
+  font-weight: 500;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transform: translateX(-70px);
+}
+
+#text-up {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 50rem;
+  height: 9.5rem;
+  text-align: center;
+}
+
+#text-down {
+  margin-top: 0;
+  width: 26.25rem;
+  height: 18.75rem;
+  text-align: center;
+}
+
+#footer-3 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+
+  margin-right: 16.5rem;
+  position: fixed;
+  margin-left: 46rem;
+  margin-bottom: 20rem;
+}
+
+#footer-3 h2 {
+  height: 2rem;
+  margin-right: 13.8rem;
+  color: var(--plava);
+  font-family: Roboto;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  background-color: var(--zelena);
+  width: 11.25rem;
+  height: 10rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto;
+  font-size: 1rem;
+  color: var(--bijela);
+}

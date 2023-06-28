@@ -1,0 +1,119 @@
+html {
+  --bijela: #ffffff;
+  --svsiva: #aaaaaa;
+  --siva: #969696;
+  --tmsiva: #252525;
+  --crna: #121212;
+  --zelena: #7dce94;
+  --svplava: #0e91a1;
+  --plava: #146c78;
+  font-family: Roboto;
+}
+header {
+  color: var(--plava);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 2rem;
+  padding-left: 8rem;
+}
+
+#ul-up {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#your-health {
+  display: flex;
+  justify-content: space-around;
+  width: 50.1875rem;
+  height: 21.5625rem;
+  background-color: #43a9b6;
+  border-radius: 20px;
+  color: white;
+}
+
+#your-health div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#your-health h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 3.125rem;
+  margin-bottom: 0;
+}
+
+#your-health a {
+  text-decoration: none;
+  color: #43a9b6;
+  background-color: var(--bijela);
+  padding: 1rem 3.8rem 1rem 3.8rem;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#your-health h2 {
+  margin-top: 10px;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+#text-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  background-color: #12b886;
+  width: 23.4375rem;
+  height: 21.5625rem;
+  border-radius: 20px;
+  padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+}
+
+#ul-down-5 {
+  margin-top: 4rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#ul-down-5 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #12b886;
+  width: 22.75rem;
+  height: 32;
+  border-radius: 20px;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  color: var(--bijela);
+}
+
+.main-img img {
+  color: rgba(0, 0, 0, 0.4);
+  border: 13px solid var(--zelena);
+  border-radius: 70px;
+  box-shadow: 2px 2px 2px;
+}
+
+.description-5 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.description img {
+  padding-right: 4px;
+}
+
+.description p {
+  padding-right: 10px;
+}
