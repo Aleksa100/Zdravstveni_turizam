@@ -1,0 +1,160 @@
+html {
+  --bijela: #ffffff;
+  --svsiva: #aaaaaa;
+  --siva: #969696;
+  --tmsiva: #252525;
+  --crna: #121212;
+  --zelena: #7dce94;
+  --svplava: #0e91a1;
+  --plava: #146c78;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  padding: 0 0 0 4rem;
+  color: var(--plava);
+}
+
+header a {
+  text-decoration: none;
+  color: var(--plava);
+  padding-top: 2rem;
+  padding-right: 3rem;
+}
+
+main {
+  padding: 3rem 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-img {
+  width: 20.125rem;
+  height: 26.8125rem;
+  box-shadow: 2px 4px 2px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.card {
+  width: 25rem;
+  height: 47rem;
+  background-image: linear-gradient(-135deg, var(--zelena), #47977f);
+  border-radius: 25px;
+  color: var(--bijela);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 2px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.725rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+.des-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div h4 {
+  background-color: #47977f;
+  padding: 0.3rem 0.9rem 0.3rem 0.9rem;
+  border-radius: 4px;
+}
+
+.more-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: var(--zelena);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px;
+  border-color: rgba(0, 0, 0, 0.4);
+  color: #121212;
+}
+
+.more-btn a {
+  display: none;
+}
+
+.more-btn-img {
+  width: 27px;
+  height: 27px;
+}
+
+.description {
+  display: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  color: var(--plava);
+  font-size: 1.25rem;
+  width: 66.5rem;
+  height: 4.375em;
+}
+
+strong {
+  color: #12b886;
+}
+
+main :hover {
+  transform: translateY(-50px);
+  transition-delay: 0.1s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  .description {
+    display: block;
+    width: 20.125rem;
+  }
+  .more-btn-img {
+    display: none;
+  }
+
+  .more-btn {
+    width: 8.125rem;
+    height: 3.125rem;
+  }
+  .more-btn a {
+    display: block;
+    color: var(--bijela);
+    text-decoration: none;
+  }
+  .des-elements {
+    display: none;
+  }
+}
+
+.card :hover {
+  transform: none;
+}
